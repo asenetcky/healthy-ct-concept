@@ -1,0 +1,34 @@
+project:
+  type: book
+
+book:
+  title: "Healthy Connecticut 20XX"
+  subtitle: "State Health Assessment Concept"
+  author: "Alexander Senetcky"
+  date: "12/18/2024"
+
+  page-footer:
+    left: |
+      This is a proof of concept for the CT State Health Assessment.
+    right: |
+      All information, data and figures are copied out of context or made up.
+
+  chapters:
+    - index.qmd
+    - acknowledgements.qmd
+    - preface.qmd
+    - intro.qmd
+    - describing-ct.qmd
+    - references.qmd
+  page-navigation: true
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+

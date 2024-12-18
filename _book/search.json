@@ -1,0 +1,112 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Healthy Connecticut 20XX",
+    "section": "",
+    "text": "Welcome\nThis is a website for showcasing how the state can adopt to using markdown, quarto and the Open Data Portal (ODP) to streamline the State Health Assessment creation process allowing for more timely releases and in turn providing stakeholders with greater agency and the ability to act on the information housed therein.\nThis concept will be deliberately using the same or similiar language from the 2025 Health Assessment for ease of comparison.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\nTo learn more about the latest CT State Health Assessment visit https://portal.ct.gov/dph/state-health-planning/healthy-connecticut/healthy-connecticut-2025",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction & Process",
+    "section": "",
+    "text": "1.1 What is the State Health Assessment?\nThe 2019 Connecticut State Health Assessment is an update on the health status of Connecticut residents with a focus on the social determinants of health that are having the greatest impact on health outcomes. The assessment provides the basis for the Connecticut State Health Improvement Plan, which together make up the state health planning framework Healthy Connecticut 2025.\nThe purpose of the assessment is to provide the public, policy leaders, partners, and stakeholders with information on the health of the Connecticut population to develop a shared understanding of health issues and inform data-driven decision making and program planning. This state health assessment is an important tool to help identify the underlying conditions and factors that influence health, reflect on existing services and policies, and inform future public health planning for the benefit of all Connecticut communities.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction & Process</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "References"
+    ]
+  },
+  {
+    "objectID": "preface.html",
+    "href": "preface.html",
+    "title": "Preface",
+    "section": "",
+    "text": "Letter from the Commissioner\nTo Our Residents and Public Health Partners:\nThe Connecticut Department of Public Health is pleased to present the Healthy Connecticut 2025 State Health Assessment. Subject matter experts from the Connecticut Department of Public Health (CT DPH), in collaboration with other state agencies, statewide partners and community organizations, have assembled data reflecting on the health and safety of Connecticut residents. The last such document was published in 2014.\nThe State Health Assessment establishes the health status of the state, and will inform the prioritization and development of the next Healthy Connecticut 2025 State Health Improvement Plan (SHIP). This plan will serve as a 5-year roadmap for promoting and advancing population health in our State. Statewide partners from the Connecticut Health Improvement Coalition, along with CT DPH, will begin the collaborative development of the SHIP in January 2020.\nWhile Connecticut is a healthy state overall, this assessment highlights the challenges faced around achieving health equity for all our residents. The Centers for Disease Control and Prevention (CDC) states that health equity is achieved when every person has the opportunity to “attain his or her full health potential” and no one is “disadvantaged from achieving this potential because of social position or other socially determined circumstances.” CT DPH is committed to enhancing health equity for our state; this document is an affirmation that equitable access to healthcare and addressing those social conditions that impact health is a basic human right.\nThe Healthy Connecticut 2025 initiative will focus on making the connection between social determinants and health outcomes. To experience success with these efforts we must prioritize examining the impact of social, behavioral and environmental factors on health to better inform policies and promote systemic change, while exploring collaborative place-based initiatives with our municipal and local health partners. It is our hope that we continue to work together to address the needs of Connecticut residents and afford every single person the opportunity to be as healthy as possible.\nWe look forward to collaborating with you in the future on this important work.\nSincerely,\nJ. Smith Commish, MD, MPH\nActing Commissioner",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "preface.html#acknowledgements",
+    "href": "preface.html#acknowledgements",
+    "title": "2  Preface",
+    "section": "2.2 Acknowledgements",
+    "text": "2.2 Acknowledgements\nThis Connecticut State Health Assessment was developed by the Connecticut Department of Public Health with the assistance of the Connecticut Health Improvement Coalition, and its Action Teams and Advisory Council.\nThis Assessment is the result of more than a year of dedicated and collaborative effort of DPH staff, staff from several other State agencies, and subject matter experts throughout the state who analyzed and contributed data and reviewed multiple iterations of this document as it evolved. This Assessment would not have been possible without their expertise and commitment to this project.\nWe gratefully acknowledge the contributions of our consultant,\nHealth Resources in Action\nBoston, MA\nfor facilitating collaborative activities of the State Health Improvement Coalition and its Advisory Council, and for assisting with compiling this Assessment in cooperation with DPH.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Preface</span>"
+    ]
+  },
+  {
+    "objectID": "acknowledgements.html",
+    "href": "acknowledgements.html",
+    "title": "Acknowledgements",
+    "section": "",
+    "text": "Connecticut Department of Public Health\nJ. Smith Commish, MD, MPH  Acting Commisioner\nJ. Smith Dep, MPH, LNHA Deputy Commisioner\nThis Connecticut State Health Assessment was developed by the Connecticut Department of Public Health with the assistance of the Connecticut Health Improvement Coalition, and its Action Teams and Advisory Council.\nThis Assessment is the result of more than a year of dedicated and collaborative effort of DPH staff, staff from several other State agencies, and subject matter experts throughout the state who analyzed and contributed data and reviewed multiple iterations of this document as it evolved. This Assessment would not have been possible without their expertise and commitment to this project.\nWe gratefully acknowledge the contributions of our consultant,\nfor facilitating collaborative activities of the State Health Improvement Coalition and its Advisory Council, and for assisting with compiling this Assessment in cooperation with DPH.\nThis publication was supported by the Preventive Health & Health Services Block Grant (PHHSBG), Grant # 1NB01OT009192-01-00, funded by the Centers for Disease Control and Prevention. Its contents are solely the responsibility of the authors and do not necessarily represent the official views of the Centers for Disease Control and Prevention or the Department of Health and Human Services.",
+    "crumbs": [
+      "Acknowledgements"
+    ]
+  },
+  {
+    "objectID": "acknowledgements.html#connecticut-department-of-public-health",
+    "href": "acknowledgements.html#connecticut-department-of-public-health",
+    "title": "Acknowledgements",
+    "section": "",
+    "text": "Health Resources in Action\nBoston, MA",
+    "crumbs": [
+      "Acknowledgements"
+    ]
+  },
+  {
+    "objectID": "intro.html#visions-for-health-equity",
+    "href": "intro.html#visions-for-health-equity",
+    "title": "1  Introduction & Process",
+    "section": "1.2 Visions for Health Equity",
+    "text": "1.2 Visions for Health Equity\nConnecticut has a bold vision for Healthy Connecticut 2025. More specifically, the Connecticut Department of Public Health (CT DPH) and partners envision the following:\n\n\nThrough effective assessment, prevention, and policy development, the Connecticut Department of Public Health and its stakeholders and partners provide every Connecticut resident equitable opportunities to be healthy throughout their lifetimes and are accountable to making measurable improvements toward health equity.\n\n\nThis vision lifts up a number of guiding principles that we uphold to center health equity:\n\nA focus on every Connecticut resident: We strive for all Connecticut residents to experience optimal health and wellbeing.*\nAttention to the health needs of residents throughout their lifetimes.\nA need to collaborate as stakeholders and partners: No one entity can advance health equity in isolation. A multi-sector and community-engaged approach is necessary to effectively understand the interconnected social determinants that impact health, and effectively address the practices, policies, and systems that support them.\nA multi-pronged approach through assessment, prevention, policy development and accountability to achieve measurable improvements in health equity.\n\nMore information about health equity, health disparities, and the Social Determinants of Health can be found in the Describing Connecticut chapter.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction & Process</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#methodology",
+    "href": "intro.html#methodology",
+    "title": "1  Introduction & Process",
+    "section": "1.3 Methodology",
+    "text": "1.3 Methodology\nThe Healthy Connecticut 2025: State Health Assessment was ultimately guided by Connecticut’s vision for health equity. The health indicators selected to be presented in the assessment reflect the social determinants of health that are impacting residents and highlight where health is experienced differently based on geographic or demographic characteristics.\nThe development of this assessment incorporated the Mobilizing for Action through Planning and Partnerships (MAPP) framework and Public Health Accreditation Board (PHAB) standards and measures. A cross-disciplinary team of internal and external stakeholders was engaged to develop a vision for Healthy Connecticut 2025 and to prioritize a list of health indicators for inclusion in the report. In addition, community members were provided opportunities to contribute to the development of the assessment through surveys and focus groups, and finally through a public comment period.\n\n1.3.1 Engagement Process\nNulla eget cursus ipsum. Vivamus porttitor leo diam, sed volutpat lectus facilisis sit amet. Maecenas et pulvinar metus. Ut at dignissim tellus. In in tincidunt elit. Etiam vulputate lobortis arcu, vel faucibus leo lobortis ac. Aliquam erat volutpat. In interdum orci ac est euismod euismod. Nunc eleifend tristique risus, at lacinia odio commodo in. Sed aliquet ligula odio, sed tempor neque ultricies sit amet.\n\n1.3.1.1 Community Survey\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\nNunc ac dignissim magna. Vestibulum vitae egestas elit. Proin feugiat leo quis ante condimentum, eu ornare mauris feugiat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris cursus laoreet ex, dignissim bibendum est posuere iaculis. Suspendisse et maximus elit. In fringilla gravida ornare. Aenean id lectus pulvinar, sagittis felis nec, rutrum risus. Nam vel neque eu arcu blandit fringilla et in quam. Aliquam luctus est sit amet vestibulum eleifend. Phasellus elementum sagittis molestie. Proin tempor lorem arcu, at condimentum purus volutpat eu. Fusce et pellentesque ligula. Pellentesque id tellus at erat luctus fringilla. Suspendisse potenti.\n\n\n1.3.1.2 Community Focus Groups\nNullam dapibus cursus dolor sit amet consequat. Nulla facilisi. Curabitur vel nulla non magna lacinia tincidunt. Duis porttitor quam leo, et blandit velit efficitur ut. Etiam auctor tincidunt porttitor. Phasellus sed accumsan mi. Fusce ut erat dui. Suspendisse eu augue eget turpis condimentum finibus eu non lorem. Donec finibus eros eu ante condimentum, sed pharetra sapien sagittis. Phasellus non dolor ac ante mollis auctor nec et sapien. Pellentesque vulputate at nisi eu tincidunt. Vestibulum at dolor aliquam, hendrerit purus eu, eleifend massa. Morbi consectetur eros id tincidunt gravida. Fusce ut enim quis orci hendrerit lacinia sed vitae enim.\nNulla eget cursus ipsum. Vivamus porttitor leo diam, sed volutpat lectus facilisis sit amet. Maecenas et pulvinar metus. Ut at dignissim tellus. In in tincidunt elit. Etiam vulputate lobortis arcu, vel faucibus leo lobortis ac. Aliquam erat volutpat. In interdum orci ac est euismod euismod. Nunc eleifend tristique risus, at lacinia odio commodo in. Sed aliquet ligula odio, sed tempor neque ultricies sit amet.\n\n\n1.3.1.3 Public and Partner Input\nPraesent ornare dolor turpis, sed tincidunt nisl pretium eget. Curabitur sed iaculis ex, vitae tristique sapien. Quisque nec ex dolor. Quisque ut nisl a libero egestas molestie. Nulla vel porta nulla. Phasellus id pretium arcu. Etiam sed mi pellentesque nibh scelerisque elementum sed at urna. Ut congue molestie nibh, sit amet pretium ligula consectetur eu. Integer consectetur augue justo, at placerat erat posuere at. Ut elementum urna lectus, vitae bibendum neque pulvinar quis. Suspendisse vulputate cursus eros id maximus. Duis pulvinar facilisis massa, et condimentum est viverra congue. Curabitur ornare convallis nisl. Morbi dictum scelerisque turpis quis pellentesque. Etiam lectus risus, luctus lobortis risus ut, rutrum vulputate justo. Nulla facilisi.\nProin sodales neque erat, varius cursus diam tincidunt sit amet. Etiam scelerisque fringilla nisl eu venenatis. Donec sem ipsum, scelerisque ac venenatis quis, hendrerit vel mauris. Praesent semper erat sit amet purus condimentum, sit amet auctor mi feugiat. In hac habitasse platea dictumst. Nunc ac mauris in massa feugiat bibendum id in dui. Praesent accumsan urna at lacinia aliquet. Proin ultricies eu est quis pellentesque. In vel lorem at nisl rhoncus cursus eu quis mi. In eu rutrum ante, quis placerat justo. Etiam euismod nibh nibh, sed elementum nunc imperdiet in. Praesent gravida nunc vel odio lacinia, at tempus nisl placerat. Aenean id ipsum sed est sagittis hendrerit non in tortor.\n\n\n\n1.3.2 Assets and Resources\nAs CT DPH teams gathered and analyzed data for the assessment, they also compiled a list of programmatic and state-wide assets. Additionally, through an analysis of local community health assessments and hospital health needs assessments, and partner input, community assets were added to develop a comprehensive list. A high level description of community assets and resources is available in Appendix B. A more detailed listing of identified assets, including the analysis of the local community health and hospital health assessments is contained in a companion document “Assets and Resources” available on the Coalition website. This document will serve as a dynamic and continuously updated resource for mapping assets to intentionally developed collaborative strategies.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction & Process</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#kinds-of-data-presented-in-the-assessment",
+    "href": "intro.html#kinds-of-data-presented-in-the-assessment",
+    "title": "1  Introduction & Process",
+    "section": "1.4 Kinds of Data Presented in the Assessment",
+    "text": "1.4 Kinds of Data Presented in the Assessment\n\n\n\n\n\n\nImportant\n\n\n\nPlease note we can do much prettier tables in code, and in fact I’ll insist on it, but for demonstration purposes, we’ll use straight markdown.\n\n\n\n\n\n\n\n\n\n\n\nData Type\nAnswers the Question\nDefinition\n\n\n\n\n\nCensus\nHow many people are/ have ____?\nAn official count\n\n\n\nPrevalence\nWhat percentage of people have ____?\ndescribes how many\n\n\n\nIncidence\nHow many new cases of ____ happened in a period of time?\nthis refers to the number",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction & Process</span>"
+    ]
+  }
+]

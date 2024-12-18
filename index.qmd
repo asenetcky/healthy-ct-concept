@@ -1,0 +1,15 @@
+# Welcome {.unnumbered}
+
+This is a website for showcasing how the state can adopt to using markdown,
+quarto and the Open Data Portal (ODP) to streamline the State Health Assessment
+creation process allowing for more timely releases and in turn providing
+stakeholders with greater agency and the ability to act on the information
+housed therein.
+
+This concept will be *deliberately* using the same or similiar language from
+the 2025 Health Assessment for ease of comparison.
+
+To learn more about Quarto books visit <https://quarto.org/docs/books>.
+
+To learn more about the latest CT State Health Assessment visit 
+<https://portal.ct.gov/dph/state-health-planning/healthy-connecticut/healthy-connecticut-2025>

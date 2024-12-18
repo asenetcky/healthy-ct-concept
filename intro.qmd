@@ -1,0 +1,144 @@
+# Introduction & Process
+
+## What is the State Health Assessment?
+
+The 2019 Connecticut State Health Assessment is an update on the health status
+of Connecticut residents with a focus on the social determinants of health that
+are having the greatest impact on health outcomes. The assessment provides the
+basis for the Connecticut State Health Improvement Plan, which together make up
+the state health planning framework Healthy Connecticut 2025.
+
+The purpose of the assessment is to provide the public, policy leaders,
+partners, and stakeholders with information on the health of the Connecticut
+population to develop a shared understanding of health issues and inform
+data-driven decision making and program planning. This state health assessment
+is an important tool to help identify the underlying conditions and factors that
+influence health, reflect on existing services and policies, and inform future
+public health planning for the benefit of all Connecticut communities.
+
+## Visions for Health Equity
+
+Connecticut has a bold vision for Healthy Connecticut 2025. More
+specifically, the Connecticut Department of Public Health (CT
+DPH) and partners envision the following: 
+
+---
+
+> Through effective assessment, prevention, and
+> policy development, the Connecticut Department
+> of Public Health and its stakeholders and partners
+> provide every Connecticut resident equitable
+> opportunities to be healthy throughout their
+> lifetimes and are accountable to making
+> measurable improvements toward health equity.
+
+---
+
+This vision lifts up a number of guiding principles that we uphold
+to center health equity:
+
+- **A focus on every Connecticut resident:** We strive for
+all Connecticut residents to experience optimal health
+and wellbeing.*
+
+- Attention to the health needs of residents **throughout
+their lifetimes.**
+
+- **A need to collaborate as stakeholders and partners:**
+No one entity can advance health equity in isolation. A
+multi-sector and community-engaged approach is necessary
+to effectively understand the interconnected social
+determinants that impact health, and effectively address
+the practices, policies, and systems that support them.
+
+- A multi-pronged approach through **assessment, prevention,
+policy development and accountability to achieve
+measurable improvements in health equity.**
+
+More information about health equity, health disparities, and
+the Social Determinants of Health can be found in the Describing
+Connecticut chapter.
+
+## Methodology
+
+The Healthy Connecticut 2025: State Health Assessment was
+ultimately guided by Connecticut’s vision for health equity. The
+health indicators selected to be presented in the assessment
+reflect the social determinants of health that are impacting
+residents and highlight where health is experienced differently
+based on geographic or demographic characteristics.
+
+The development of this assessment incorporated the Mobilizing
+for Action through Planning and Partnerships (MAPP) framework
+and Public Health Accreditation Board (PHAB) standards and
+measures. A cross-disciplinary team of internal and external
+stakeholders was engaged to develop a vision for Healthy
+Connecticut 2025 and to prioritize a list of health indicators for
+inclusion in the report. In addition, community members were
+provided opportunities to contribute to the development of
+the assessment through surveys and focus groups, and finally
+through a public comment period.
+
+### Engagement Process
+
+{{< lipsum 1 >}}
+
+#### Community Survey
+
+{{< lipsum 2 >}}
+
+#### Community Focus Groups
+
+{{< lipsum 2 >}}
+
+#### Public and Partner Input
+
+{{< lipsum 2 >}}
+
+### Assets and Resources
+
+As CT DPH teams gathered and analyzed data for the assessment,
+they also compiled a list of programmatic and state-wide
+assets. Additionally, through an analysis of local community
+health assessments and hospital health needs assessments,
+and partner input, community assets were added to develop a
+comprehensive list. A high level description of community assets
+and resources is available in Appendix B. A more detailed
+listing of identified assets, including the analysis of the local
+community health and hospital health assessments is contained
+in a companion document “Assets and Resources” available on
+the Coalition website. This document will serve as a dynamic
+and continuously updated resource for mapping assets to
+intentionally developed collaborative strategies. 
+
+## Kinds of Data Presented in the Assessment
+
+The State Health Assessment presents many kinds of data visualized in graphs,
+tables, and maps. Here are some examples of data types included in this report
+and what they mean.
+
+:::{.callout-important}
+Please note we can do much prettier tables in code, and in fact
+I'll insist on it, but for demonstration purposes, we'll use straight markdown.
+:::
+
+| Data Type | Answers the Question | Definition |
+|------------|-----------|---------|------|
+| Census     |  How many people are/ have ____?  |    An official count   |
+| Prevalence |  What percentage of people have ____? |   describes how many  |
+| Incidence  |    How many new cases of ____ happened in a period of time? |     this refers to the number   |
+
+
+{{< lipsum 1 >}}
+
+## Limitations of assessment
+
+{{< lipsum 1 >}}
+
+
+## MAPS!
+
+Maps are presented in infographic style throughout the report. Below are three reference maps of Connecticut’s counties and towns
+(1); its major highways and cities (2); and major waterways (3).
+
+TODO: throw some ggplot or leaflets in here
