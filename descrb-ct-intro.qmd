@@ -1,0 +1,35 @@
+# Introduction
+
+> In order to fully understand the state of Connecticut’s health and health
+> outcomes, it is imperative for this State Health Assessment to begin by
+> describing our residents by those fundamental sociodemographics that contribute
+> to certain populations experiencing a greater burden of ill health; the
+> difference in these health outcomes on a population level are health
+> disparities. The World Health Organization states that “what makes societies
+> prosper and flourish can also make people healthy.” At a glance it would appear
+> that Connecticut is doing well from a national perspective; America’s Health
+> Rankings 2018 Annual Report reported that Connecticut is the third healthiest
+> state in the country. But even when our society thrives there continue to be
+> pockets of our people who experience worse health outcomes solely because they
+> identify or pertain to historically underrepresented groups based on but not
+> exclusive to sex and sexual orientation, gender identity, race, ethnicity, or
+> age.
+
+Identifying who is at greatest risk for preventable health conditions is an
+important initial step toward identifying relevant health inequities and
+supporting health equity. And while these populations are defined by elements
+that are immutable, there are other populations of interest — immigrants and
+refugees, veterans, the formerly incarcerated, and people with mental health
+disorders — who also experience poor health outcomes disparately. Although the
+2018 America’s Health Rankings Annual Report found that Connecticut is the third
+healthiest state in the nation, we must consider that it is also the most
+diverse state in New England; this greater diversity indicates a need for
+greater resources in order to respond more equitably. Each of these presents a
+different aspect of meeting the health needs of our communities, from having a
+competent and diverse workforce to removing language barriers.
+
+{{< lipsum 2 >}}
+
+Where appropriate, this chapter provides comparisons between
+Connecticut, the New England region, and the United States.
+

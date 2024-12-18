@@ -1,0 +1,56 @@
+# Social Factors
+
+> The Social Determinants of Health (SDOH) are the upstream non-health factors
+> that “impact a wide range of health, functioning and quality of life outcomes.”1
+> For public health, this is as preventive as it gets. When considering these
+> upstream factors in the work of a public health entity such as the Connecticut
+> Department of Public Health (CT DPH), we can more effectively inform the public
+> and policymakers so we can all live better lives. As an agency whose mission
+> declares that the equal enjoyment of a person’s highest attainable standard of
+> health is a human right, we must also examine the conditions that contribute to
+> “avoidable differences in health among specific population groups that result
+> from cumulative social disadvantages.”[^social-factors-1] 
+> More specifically, we apply an equity lens to ascertain which populations 
+> are being most negatively impacted.
+
+[^social-factors-1]: Vavrus, S. J., Obscherning, E., & Patz, A. (2015).
+Understanding key concepts of climate science and their application. In B. S.
+Levy & J. A. Patz (Eds.), Climate Change and Public Health. (pp. 29–49). New
+York: Oxford University Press.
+
+Look references on highlight and at the bottom of the page - go find that same
+reference easily in the original document. It's not clickable, and the pdf
+is 400 pages long so it's had to find the reference page, and it takes a while
+to load. So much friction, now references are simultanesouly front and center 
+and out of the way. 
+
+## Education
+
+Economic factors such as poverty and unemployment can lead
+to unhealthy living conditions. Yet education can provide
+individuals with foundational knowledge, life skills, and social
+and psychological supports to make healthier choices. Therefore,
+quality education and higher educational attainment can be a
+protective factor that can advance more equitable outcomes.3
+It has been demonstrated that individuals without a high school
+diploma have higher incidences of risk behaviors and other
+adverse health outcomes; and earn less money, which can limit
+access to resources and healthy environments.4
+
+### Early Education
+
+Experiences and education within the first five years of life can
+shape one’s health trajectory across the lifespan. Early education
+and care programs can be protective against social and economic
+challenges and narrow inequitable gaps in health outcomes.5
+Participating in these programs are also associated with higher
+educational attainment, better eating habits, increased use of
+preventive healthcare services, and lower rates of child injuries,
+child abuse/maltreatment, teen pregnancy, depression, use of
+tobacco or other drugs, and arrests and incarceration.5
+ As noted
+in Figure 1, the rate of Pre-K enrollment for 4-year old children
+in state-funded preschool programs in Connecticut has made
+sizable gains over the past 5 years; however, enrollment among
+3-year old children has remained fairly stable over the past
+decade and thus far peaked at 10% in 2016.
