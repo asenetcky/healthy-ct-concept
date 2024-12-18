@@ -7,6 +7,13 @@ book:
   author: "Alexander Senetcky"
   date: "12/18/2024"
 
+  search: true
+  repo-url: https://github.com/asenetcky/healthy-ct-concept
+  repo-actions: [edit]
+
+  sidebar:
+    style: docked
+
   page-footer:
     left: |
       This is a proof of concept for the CT State Health Assessment.
@@ -17,8 +24,13 @@ book:
     - index.qmd
     - acknowledgements.qmd
     - preface.qmd
-    - intro.qmd
-    - describing-ct.qmd
+    - part: "Introduction and Process"
+      chapters:
+        - intro-intro-and-process.qmd
+    - part: "Describing Connecticut"
+      chapters:
+        - descrb-ct-intro.qmd
+        - descrb-ct-social-factors.qmd
     - references.qmd
   page-navigation: true
 
