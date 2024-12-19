@@ -7,7 +7,8 @@ stakeholders with greater agency and the ability to act on the information
 housed therein.
 
 This concept will be *deliberately* using the same or similiar language from
-the 2025 Health Assessment for ease of comparison.
+the 2025 Health Assessment for ease of comparison. This meant to be a vertical
+slice of the 2025 Health Assessment, showcasing a little bit of everything.
 
 To learn more about Quarto books visit <https://quarto.org/docs/books>.
 
