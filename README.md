@@ -34,11 +34,19 @@ contributors.
 
 ## Toolkit
 
-This will be built with the following tools:
+This will be built with the following core tools:
 
 - R v4.4.2 (see `renv.lock` for packages)
-- RStudio 2024.12.0 Build 467
-- Quarto v1.6.39
-- git 
-- github
-- zotero
+- [RStudio 2024.12.0 Build 467](https://posit.co/products/open-source/rstudio/)
+- [Quarto v1.6.39](https://quarto.org/)
+- [git](https://git-scm.com/) 
+- [github](https://github.com/)
+- [zotero](https://www.zotero.org/)
+
+I also want to highlight some other tools that aren't core to this project, but
+I use them and enjoy using them and I want to highlight them:
+
+- [Neovim v0.11.0-dev](https://neovim.io/)
+- [LazyVim](https://www.lazyvim.org/)
+- [lazy.nvim](https://github.com/folke/lazy.nvim)
+- [lazygit](https://github.com/jesseduffield/lazygit)
