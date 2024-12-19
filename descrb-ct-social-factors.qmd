@@ -9,20 +9,18 @@
 > declares that the equal enjoyment of a person’s highest attainable standard of
 > health is a human right, we must also examine the conditions that contribute to
 > “avoidable differences in health among specific population groups that result
-> from cumulative social disadvantages.”[^social-factors-1] 
+> from cumulative social disadvantages.”[@vavrus2015] 
 > More specifically, we apply an equity lens to ascertain which populations 
-> are being most negatively impacted.
+> are being most negatively impacted.[^social-factors-1]
 
-[^social-factors-1]: Vavrus, S. J., Obscherning, E., & Patz, A. (2015).
-Understanding key concepts of climate science and their application. In B. S.
-Levy & J. A. Patz (Eds.), Climate Change and Public Health. (pp. 29–49). New
-York: Oxford University Press.
+[^social-factors-1]: We can do footnotes on highlight, that 
+also show up at the bottom of the page
 
-Look references on highlight and at the bottom of the page - go find that same
+Look references on highlight - go find that same
 reference easily in the original document. It's not clickable, and the pdf
 is 400 pages long so it's had to find the reference page, and it takes a while
-to load. So much friction, now references are simultanesouly front and center 
-and out of the way. 
+to load. So much friction, now references are easier to work
+with.
 
 ## Education
 
