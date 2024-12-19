@@ -74,7 +74,7 @@ I'll insist on it, but for demonstration purposes, we'll use straight markdown.
 
 {{< lipsum 1 >}}
 
-## MAPS!
+## Connecticut Maps
 
 Maps are presented in infographic style throughout the report. Below are three reference maps of Connecticut’s counties and towns
 (1); its major highways and cities (2); and major waterways (3).
@@ -88,7 +88,9 @@ TODO: throw some ggplot or leaflets in here
 #| 
 library(leaflet)
 
-leaflet()
+leaflet() |> 
+  addProviderTiles(providers$CartoDB) |> 
+  setView(-72.699997, 41.599998, zoom = 9)
 
 ```
 
