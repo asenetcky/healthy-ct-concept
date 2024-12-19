@@ -26,7 +26,8 @@ book:
     - preface.qmd
     - part: "Introduction and Process"
       chapters:
-        - intro-intro-and-process.qmd
+        - intro-overview.qmd
+        - intro-methodology.qmd
     - part: "Describing Connecticut"
       chapters:
         - descrb-ct-intro.qmd

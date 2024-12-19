@@ -33,7 +33,7 @@ protective factor that can advance more equitable outcomes.3
 It has been demonstrated that individuals without a high school
 diploma have higher incidences of risk behaviors and other
 adverse health outcomes; and earn less money, which can limit
-access to resources and healthy environments.4
+access to resources and healthy environments.
 
 ### Early Education
 
@@ -45,10 +45,114 @@ Participating in these programs are also associated with higher
 educational attainment, better eating habits, increased use of
 preventive healthcare services, and lower rates of child injuries,
 child abuse/maltreatment, teen pregnancy, depression, use of
-tobacco or other drugs, and arrests and incarceration.5
- As noted
-in Figure 1, the rate of Pre-K enrollment for 4-year old children
-in state-funded preschool programs in Connecticut has made
-sizable gains over the past 5 years; however, enrollment among
-3-year old children has remained fairly stable over the past
-decade and thus far peaked at 10% in 2016.
+tobacco or other drugs, and arrests and incarceration.
+
+As noted in @fig-pct-enroll, the rate of Pre-K enrollment for 4-year old
+children in state-funded preschool programs in Connecticut has made sizable
+gains over the past 5 years; however, enrollment among 3-year old children has
+remained fairly stable over the past decade and thus far peaked at 10% in 2016.
+
+---
+
+> CONNECTICUT RANKS NINTHS IN THE US FOR EARLY EDUCATION
+> SPENDING PER CHILD[^social-factors-2]
+
+---
+
+[^social-factors-2]: Another footnote :)
+
+- Connecticut has three state-funded
+pre-kindergarten programs: School Readiness
+Program, Child Day Care Contracts, and
+Smart Start[^social-factors-3]
+
+- In 2018, 14,585 children were enrolled in state
+pre-kindergarten programs[^social-factors-3]
+
+- On average, our state spent $7,612 per child
+enrolled; this reflects a 30% drop in average per
+child expenditure since 2011[^social-factors-3]
+
+- According to most recent estimates available
+(2013–2014 school year), children enrolled
+in CT early childhood and pre-kindergarten
+programs were:[^social-factors-4]  
+
+  - 50% are non-Hispanic White, 26% are Hispanic/Latino,
+15% are non-Hispanic Black or African American, and
+5% are non-Hispanic Asian
+
+  - 23% are students with disabilities served under the
+ Individuals with Disabilities Education Act
+ 
+  - 2% are English Language Learners (those who speak
+English less than “very well;” for more information about
+Limited English Proficient section)
+
+[^social-factors-3]: Friedman-Krauss, A.H., et al. (2019). The State of
+Preschool 2018: State Preschool Yearbook. National Institute for Early Education
+Research. Retrieved from
+http://nieer.org/wp-content/uploads/2019/05/YB2018_Executive-SummaryR.pdf.
+
+[^social-factors-4]: Civil Rights Data Collection, 2013–2014 State and National
+Estimates: Total Enrollment in Early Childhood and Pre-K.
+
+---
+
+```{r}
+#| label: fig-pct-enroll
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-cap: Quick Example Plot
+
+library(ggplot2)
+library(dplyr)
+
+four_yo <- c(9,10,13,15,14,16,16,11,13,13,13,13,14,23,24,30,30)
+three_yo <- c(3,3,2,2,3,4,5,8,7,7,8,6,6,9,10,8.5,9)
+
+prek_enrollment <- 
+  dplyr::tibble(
+    pct_enroll = c(four_yo, three_yo),
+    year = c(2002:2018, 2002:2018),
+    age = c(rep("4 year olds", 17), rep("3 year olds", 17))
+  )
+
+ggplot(prek_enrollment, aes(year, pct_enroll)) +
+  geom_point(aes(col = age)) +
+  geom_line(aes(col = age)) +
+  theme_classic() +
+  labs(
+    title = 
+    "Percentage of children enrolled in early childhood 
+    and Pre-K programs by age group",
+    subtitle = "CT, 2002-2018",
+    col = "",
+    x = "",
+    y = "Percentage of Population Enrolled"
+  )
+
+#TODO add guides
+#TODO add proper colors
+#TODO add source caption
+#TODO more years on x axis
+#TODO remove y axis line
+  
+  
+  
+```
+
+### Education Attainment
+
+{{< lipsum 3 >}}
+
+## Neighborhood and Built Environment
+
+### Access to Health Foods
+
+{{< lipsum 1 >}}
+
+### Food Insecurity
+
+{{< lipsum 2 >}}
