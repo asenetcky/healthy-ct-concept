@@ -1,0 +1,13 @@
+/*-- scss:defaults --*/
+// Fonts
+
+// stylelint-disable-next-line value-keyword-case
+$font-family:    "Poppins" !default;
+$headings-font-weight:      400 !default;
+
+// Variables
+
+$web-font-path: "https://fonts.googleapis.com/css2?family=Poppins" !default;
+@if $web-font-path {
+  @import url($web-font-path);
+}
