@@ -32,6 +32,9 @@ book:
       chapters:
         - descrb-ct-intro.qmd
         - descrb-ct-social-factors.qmd
+    - part: "Meta"
+      chapters:
+        - data-datalayer.qmd
     - references.qmd
   page-navigation: true
 
