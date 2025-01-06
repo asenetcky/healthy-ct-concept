@@ -1,3 +1,5 @@
+{{< include preamble.md >}}
+
 # Methodology
 
 The Healthy Connecticut 2025: State Health Assessment was
@@ -92,7 +94,7 @@ Maps are presented in infographic style throughout the report. Below are three r
 #   setView(-72.699997, 41.599998, zoom = 9)
 
 library(tigris)
-library(ggplot2) 
+
 
 ct_sf <- 
   tigris::county_subdivisions(
