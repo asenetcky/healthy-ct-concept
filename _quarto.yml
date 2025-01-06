@@ -59,6 +59,9 @@ book:
     - part: "Navigating Health Equity"
       chapters:
         - placeholder/nhe-placeholder.qmd
+    - part: "Meta"
+      chapters:
+        - data-datalayer.qmd
     - references.qmd
   page-navigation: true
 
