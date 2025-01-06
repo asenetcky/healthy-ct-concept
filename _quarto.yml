@@ -32,6 +32,33 @@ book:
       chapters:
         - descrb-ct-intro.qmd
         - descrb-ct-social-factors.qmd
+    - part: "Maternal, Infant, and Child Health"
+      chapters:
+        - placeholder/mch-placeholder.qmd
+    - part: "Environmental Health"
+      chapters:
+        - placeholder/eh-placeholder.qmd
+    - part: "Drinking Water"
+      chapters:
+        - placeholder/dw-placeholder.qmd
+    - part: "Chronic Diseases"
+      chapters:
+        - placeholder/dw-placeholder.qmd
+    - part: "Infectious Diseases"
+      chapters:
+        - placeholder/id-placeholder.qmd
+    - part: "Behavioral Health, Trauma, and Injury"
+      chapters:
+        - placeholder/bhti-placeholder.qmd
+    - part: "Health Systems"
+      chapters:
+        - placeholder/hs-placeholder.qmd
+    - part: "Climate and Health"
+      chapters:
+        - placeholder/ch-placeholder.qmd
+    - part: "Navigating Health Equity"
+      chapters:
+        - placeholder/nhe-placeholder.qmd
     - part: "Meta"
       chapters:
         - data-datalayer.qmd
