@@ -69,7 +69,9 @@ bibliography: references.bib
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: [cosmo, theme-ctdph.scss]
+      dark: [darkly, theme-ctdph-dark.scss]
   pdf:
     documentclass: scrreprt
 

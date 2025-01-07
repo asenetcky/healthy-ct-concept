@@ -1,3 +1,5 @@
+{{< include preamble.Rmd >}}
+
 # Methodology
 
 The Healthy Connecticut 2025: State Health Assessment was
@@ -99,7 +101,8 @@ the same data streams and they can offer deeper interactive dives into the data.
 #   setView(-72.699997, 41.599998, zoom = 9)
 
 library(tigris)
-library(ggplot2) 
+
+
 library(RSocrata)
 library(dplyr)
 
