@@ -47,6 +47,17 @@ theme_ct_vertical <- function() {
   )
 }
 
+# for sideways like horizontal bars
+theme_ct_horizontal <- function() {
+  ggplot2::theme_classic() + 
+    ggplot2::theme(
+      axis.line. = element_blank(),
+      axis.ticks.y = element_blank(),
+      axis.ticks.x = element_blank(),
+      axis.title = element_text(face = "bold", family = "Poppins")
+    )
+}
+
 # classic
 ggplot(cars, aes(x = wt, y = mpg)) +
   geom_point() +
@@ -182,6 +193,7 @@ ggplot(demo_food) +
     limits = c(0, 20), breaks = c(4,8,12,16,20),
     expand = c(0, 0)
   ) +
+  coord_flip() +
   theme_ct_vertical() +
   theme(
     plot.title = element_text(face = "bold", family = "Poppins", colour = "#3371E7"),
