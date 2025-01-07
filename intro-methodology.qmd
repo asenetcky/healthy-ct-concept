@@ -78,15 +78,22 @@ I'll insist on it, but for demonstration purposes, we'll use straight markdown.
 
 ## Connecticut Maps
 
-Maps are presented in infographic style throughout the report. Below are three reference maps of Connecticut’s counties and towns
-(1); its major highways and cities (2); and major waterways (3).
-
+Below is an example map made using the `ggplot2` package.  `ggplot2` are static
+and by keeping them static, this book can be converted into multiple different
+formats like pdf, word etc... If users choose to forgo those options and stick
+with this as primarily a website and .html, than interactive maps/visuals
+can be added as well.  In my opinion, I think this document should stay
+static, and then other tools/platforms (like CT Open Data Portal) can tap into 
+the same data streams and they can offer deeper interactive dives into the data.
 
 ```{r}
 #| echo: false
 #| message: false
 #| warning: false
-#| 
+#| label: fig-random-map
+#| fig-cap: "source: @ct_reportable-disease-list2024"
+
+
 # library(leaflet)
 # 
 # leaflet() |> 
@@ -96,21 +103,51 @@ Maps are presented in infographic style throughout the report. Below are three r
 library(tigris)
 
 
+library(RSocrata)
+library(dplyr)
+
+ct_county_disease_data <- 
+  RSocrata::read.socrata("https://data.ct.gov/resource/4rss-apm8.json") |> 
+  group_by(ceprcode) |> 
+  summarize(n = n()) |> 
+  filter(!is.na(ceprcode))
+
 ct_sf <- 
-  tigris::county_subdivisions(
+  tigris::counties(
     state = "09", 
     cb = TRUE, 
     class = "sf",
     progress_bar = FALSE
   ) 
 
-
-ggplot(ct_sf) +
-  geom_sf() +
+random_cepr_disease_data <- 
+  ct_sf |> 
+  left_join(
+    ct_county_disease_data, 
+    by = join_by(COUNTYFP == ceprcode)
+  )
+  
+ggplot(random_cepr_disease_data) +
+  geom_sf(aes(fill = n)) +
+  geom_sf_text(aes(label = COUNTYFP), col = "black",  size = 4.0) +
+  scale_fill_viridis_c(direction = -1) +
   theme_void() +
   labs(
-    title = "This is a map"
-  )
+    title = "This is a Map Using random CT Open Data",
+    subtitle = "Subtitle",
+    fill = glue::glue("Reportable Disease
+                      Count"),
+    caption = 
+    "This is thrown together, but we can create a unifying theme, with variants, for all visuals"
+  ) +
+  theme(
+  # plot.title = element_text(size =11),
+  legend.position = c(0.73,0.14),
+  legend.direction = "horizontal",
+  # legend.title = element_text(size = 8),
+  # legend.text = element_text(size=8),
+  # legend.key.size = unit(0.80, "line")
+)
 
 ```
 

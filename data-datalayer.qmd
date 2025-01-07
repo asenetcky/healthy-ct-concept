@@ -1,0 +1,33 @@
+# Data Layer Concept {.unnumbered}
+
+## The Concept
+
+This is a concept project so the focus won't be on a fully fleshed out
+data layer.  For now, just individual calls to the Connecticut Open Data Portal
+(ODP) will suffice.
+
+## The Ideal (Probably)
+
+All data and derived data products and visuals come from open data sources
+like the ODP. The data layer is separate, but related and stored in another
+repository.  It will dump data in a `data/` subfolder available to developers
+and the repository rendering the quarto book.
+Both the quarto book repository and the data pull and wrangle 
+repositories are public and they reference each other in their respective
+readmes. The goal is to be reproducible, showcase the ODP without DDOSing them
+over and over again.
+
+### The nitty-gritty
+
+To cut down on complexity with caching, freezing and playing nice and not
+hammering the ODP API the data layer can be code external to this project.
+Probably a separate repository and process (depending on the developer team git
+familiarity, could be a git submodule).  As data feeds come online, this 
+repository and project can grab everything needed from the ODP in an automated
+way and store everyting as parquet.  Then the `dbplyr`, `duckdb` and `dplyr` 
+can just reference the data stored locally in an efficient manner.  An app token
+for the state health assessment should be made on the ODP side of the house.
+
+### The onus
+
+The burden is really going to be having all the expected data on the ODP.

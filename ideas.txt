@@ -1,0 +1,5 @@
+- better separate presentation layer from data layer
+  - initial idea: 
+    - automate data pull based on data update schdule
+    - automate wrangle into duckdb + parquet
+    - when (data changes/schedule) render of book and push to website
