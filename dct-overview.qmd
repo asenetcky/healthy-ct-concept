@@ -1,4 +1,4 @@
-# Introduction
+# Overview
 
 > In order to fully understand the state of Connecticut’s health and health
 > outcomes, it is imperative for this State Health Assessment to begin by
