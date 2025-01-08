@@ -26,11 +26,42 @@ through a public comment period.
 
 ### Community Survey
 
-{{< lipsum 2 >}}
+{{< lipsum 1 >}}
+
+These populations of focus included:
+
+- Parents of children with special healthcare needs
+
+- People receiving services from the Connecticut Department of Social Sevices
+
+- Patients of Deferally-Qualified Health Centers (FQHCs)
 
 ### Community Focus Groups
 
-{{< lipsum 2 >}}
+{{< lipsum 1 >}}
+
+- Aging Adults
+
+- Black/African-American Women
+
+- Families Affected by Alzheimer's
+
+- Families Affected by Autism
+
+- Families of Children with Special Healthcare Needs
+
+- Formerly Incarcerated Persons
+
+- Hispanic Community
+
+- Immigrants and Refugees
+
+- LGBTQ Aging Adults
+
+- LGBTQ Younger Adults
+
+- Veterans and their Families
+
 
 ### Public and Partner Input
 
@@ -63,11 +94,11 @@ Please note we can do much prettier tables in code, and in fact
 I'll insist on it, but for demonstration purposes, we'll use straight markdown.
 :::
 
-| Data Type | Answers the Question | Definition |
-|------------|-----------|---------|------|
-| Census     |  How many people are/ have ____?  |    An official count   |
-| Prevalence |  What percentage of people have ____? |   describes how many  |
-| Incidence  |    How many new cases of ____ happened in a period of time? |     this refers to the number   |
+| Data Type | Answers the Question | Definition | Example |
+|------------|-----------|---------|------| ------- |
+| Census     |  How many people are/ have ____?  |  An official count of a population, typically recording various details of individuals   | A total of 3.5 million people live in Connecticut. |
+| Prevalence |  What percentage of people have ____? |   Describes how many people have a disease or condition among an entire group of people. Often you will see this as a rate or percentage.  | About 200 of every 100,000 people has diabetes.|
+| Incidence  |    How many new cases of ____ happened in a period of time? | This refers to the number of individuals who develop a specific disease or experience a specific health-related event during a particular time period (such as a month or year) | The incidence of infection went down from X cases per 10,000 to just Y cases.  |
 
 
 {{< lipsum 1 >}}
@@ -85,6 +116,9 @@ with this as primarily a website and .html, than interactive maps/visuals
 can be added as well.  In my opinion, I think this document should stay
 static, and then other tools/platforms (like CT Open Data Portal) can tap into 
 the same data streams and they can offer deeper interactive dives into the data.
+
+
+
 
 ```{r}
 #| echo: false
