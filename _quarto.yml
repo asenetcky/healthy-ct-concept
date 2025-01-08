@@ -30,8 +30,11 @@ book:
         - intro-methodology.qmd
     - part: "Describing Connecticut"
       chapters:
-        - descrb-ct-intro.qmd
-        - descrb-ct-social-factors.qmd
+        - dct-overview.qmd
+        - dct-social-factors.qmd
+        - dct-economic-factors.qmd
+        - dct-key-pop-char.qmd
+        - dct-mortality.qmd
     - part: "Maternal, Infant, and Child Health"
       chapters:
         - placeholder/mch-placeholder.qmd
@@ -69,6 +72,7 @@ bibliography: references.bib
 
 format:
   html:
+    html-table-processing: none
     theme:
       light: [cosmo, theme-ctdph.scss]
       dark: [darkly, theme-ctdph-dark.scss]
