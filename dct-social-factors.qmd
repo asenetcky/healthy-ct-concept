@@ -148,12 +148,15 @@ basic_plot
 ```
 
 
+Now the same plot with similiar themeing to the original plot, but now
+with CT approved colors and poppin font.
+
 ```{r}
 #| label: fig-pct-enroll-ct
 #| echo: false
 #| message: false
 #| warning: false
-#| fig-cap: Same Plot with CT Colors and random source @ct-rdl-2024
+#| fig-cap: "Source: [@ct-rdl-2024]"
 
 
 blue <- list_color_hex_codes$list_ct_primary_colors$primary
