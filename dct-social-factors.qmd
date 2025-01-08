@@ -300,7 +300,10 @@ edu_attn <-
     degree = factor(degree, levels = degree_levels)
   ) |> 
   group_by(grp) |> 
-  mutate(label_y = cumsum(pct)) |> 
+  mutate(
+    cum_y = cumsum(pct),
+    label_y = cum_y - (pct/2)
+  ) |> 
   ungroup() |> 
   mutate(
     label = paste0(pct * 100, "%")
@@ -317,10 +320,10 @@ blues <-
 
 ggplot(edu_attn, aes(x = grp, y = pct, fill = degree)) +
   geom_col(
-    col = "white", 
+    col = "black", 
     position = position_stack(reverse = TRUE)
   ) +
-  geom_text(aes(label = label, y = label_y), size = 3) +
+  geom_text(aes(label = label, y = label_y), size = 2.7, col = "white") +
   coord_flip() +
   scale_fill_manual(values = blues) +
   theme_ct_horizontal() +
