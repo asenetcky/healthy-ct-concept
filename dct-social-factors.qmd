@@ -176,7 +176,23 @@ basic_plot +
 
 ### Education Attainment
 
-{{< lipsum 3 >}}
+In an age-adjusted multivariate analysis of the entire US, it was demonstrated
+that lack of high school education captured the effect of income inequality in
+addition to contributing to increased mortality that is attributed to increased
+risk of injury as a result of high-risk occupations, inadequate health insurance
+coverage, and unhealthy behaviors like smoking.6
+
+In Connecticut, one in ten residents aged 25 and older have earned less than a
+high school degree, which is slightly less than the national proportion
+(@fig-pct-wbach). As a state, nearly two in five residents 25 and older earned a
+bachelor’s degree and above in 2017, exceeding the national rate.
+
+Fairfield County had the greatest percentage of its residents with at least a
+bachelor’s degree (47%) while residents from Windham County experienced the
+lowest percentage (24%); unsurprisingly, Fairfield County also has the most
+towns — 10 out of 23 — with median household incomes exceeding $125,000.
+
+{{< lipsum 2 >}}
 
 ## Neighborhood and Built Environment
 
@@ -184,6 +200,147 @@ basic_plot +
 
 {{< lipsum 1 >}}
 
+
+```{r}
+#| label: fig-pct-wbach
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-cap: "___Source:___ [@ct-rdl-2024]"
+
+# data
+
+pct_wbach <- 
+  dplyr::tibble(
+    year = c(rep(2010:2017,2)),
+    grp = c(rep("CT", 8), rep("US", 8)),
+    pct = c(
+      35.5, 36.2, 37.1, 37.2, 38.0, 38.3, 38.6, 38.7,
+      28.2, 28.5, 29.1, 29.6, 30.1, 30.6, 31.3, 32.0
+    )
+  ) |> 
+  dplyr::mutate(grp = factor(grp, levels = c("CT", "US")))
+
+db <- list_color_hex_codes$list_ct_primary_colors$primary_shade2
+lb <- list_color_hex_codes$list_ct_primary_colors$primary
+
+
+ggplot(pct_wbach, aes(x = year, y = pct, colour = grp)) +
+  geom_point() +
+  geom_line() +
+  geom_text(
+    aes(label = pct),
+    nudge_y = 1,
+    show.legend = FALSE
+  ) +
+  scale_y_continuous(
+    expand = c(0,6)
+  ) +
+  scale_x_continuous(n.breaks = 8) +
+  scale_color_manual(values = c(lb,db)) +
+  theme_ct_vertical() +
+  theme_poppins_bold_all() +
+  theme(
+    title = element_text(size = 8.5),
+    legend.direction = "horizontal",
+    legend.position = "inside",
+    legend.position.inside = c(0.8, 1.0)
+  ) +
+  labs(
+    title = "Percentage of population 25 years and older with a bachelor's degree or higher",
+    subtitle = "CT and US, 2010-2017",
+    y = "PERCENTAGE OF POPULATION",
+    x = "",
+    col = ""
+  )
+
+```
+
+{{< lipsum 1 >}}
+
 ### Food Insecurity
 
-{{< lipsum 2 >}}
+{{< lipsum 3 >}}
+
+Oh man, the numbers don't add up to 100% in the original
+picture in the SHA.
+
+
+```{r}
+#| label: fig-pct-edu-attn
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-cap: "___Source:___ [@placeholder1]"
+
+# data
+
+grp_levels <- c("CT", "NH White", "Hispanic", "Black", "Asian")
+degree_levels <- c("Less than Highschool", "High School diploma or equivalent",
+                   "Some college or Associate's degree", "Bachelor's Degree",
+                   "Gradute or professional degree")
+
+edu_attn <- 
+  tidyr::expand_grid(grp_levels, degree_levels) |> 
+  dplyr::tibble(
+    pct = c(
+      0.096, 0.271, 0.246, 0.214, 0.173,
+      0.056, 0.256, 0.249, 0.244, 0.195,
+      0.284, 0.329, 0.329, 0.096, 0.065,
+      0.125, 0.378, 0.298, 0.120, 0.120,
+      0.110, 0.128, 0.117, 0.302, 0.344
+    )
+  ) |> 
+  dplyr::rename(
+    grp = grp_levels,
+    degree = degree_levels
+  ) |> 
+  dplyr::mutate(
+    grp = factor(grp, levels = grp_levels),
+    degree = factor(degree, levels = degree_levels)
+  ) |> 
+  group_by(grp) |> 
+  mutate(label_y = cumsum(pct)) |> 
+  ungroup() |> 
+  mutate(
+    label = paste0(pct * 100, "%")
+  )
+
+# what probably needs to happen is take current pct/2 and then add it to
+# the full pcts of the previous levels
+
+# plot
+blues <- 
+  list_color_hex_codes$list_ct_primary_colors |> 
+  purrr::map_vec(purrr::pluck) |> 
+  unname()
+
+ggplot(edu_attn, aes(x = grp, y = pct, fill = degree)) +
+  geom_col(
+    col = "white", 
+    position = position_stack(reverse = TRUE)
+  ) +
+  geom_text(aes(label = label, y = label_y), size = 3) +
+  coord_flip() +
+  scale_fill_manual(values = blues) +
+  theme_ct_horizontal() +
+  theme_poppins_bold_all() +
+  theme(
+    legend.position = "top",
+    legend.direction = "horizontal",
+    legend.text = element_text(size = 7),
+    legend.key.size = unit(5, "mm"),
+    axis.text.x = element_blank()
+  ) +
+  labs(
+    x = "",
+    y = "PERCENTAGE OF POPULATION",
+    fill = ""
+  ) +
+  guides(
+    fill = guide_legend(byrow = TRUE, nrow = 2)
+  )
+
+
+```
+
