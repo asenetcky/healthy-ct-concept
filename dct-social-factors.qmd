@@ -314,13 +314,10 @@ edu_attn <-
     )
   )
 
-# what probably needs to happen is take current pct/2 and then add it to
-# the full pcts of the previous levels
-
 # plot
 blues <- 
   list_color_hex_codes$list_ct_primary_colors |> 
-  purrr::map_vec(purrr::pluck) |> 
+  unlist() |> 
   unname()
 
 ggplot(edu_attn, aes(x = grp, y = pct, fill = degree)) +
