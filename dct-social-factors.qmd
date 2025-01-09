@@ -306,7 +306,12 @@ edu_attn <-
   ) |> 
   ungroup() |> 
   mutate(
-    label = paste0(pct * 100, "%")
+    label = paste0(pct * 100, "%"),
+    color_group = if_else(
+      degree == "Gradute or professional degree", 
+      "white", 
+      "black"
+    )
   )
 
 # what probably needs to happen is take current pct/2 and then add it to
@@ -320,12 +325,21 @@ blues <-
 
 ggplot(edu_attn, aes(x = grp, y = pct, fill = degree)) +
   geom_col(
-    col = "black", 
+    col = "white", 
     position = position_stack(reverse = TRUE)
   ) +
-  geom_text(aes(label = label, y = label_y), size = 2.7, col = "white") +
+  geom_text(
+    aes(
+      label = label, 
+      y = label_y,
+      colour = color_group
+    ), 
+    size = 2.7,
+    show.legend = FALSE
+  ) +
   coord_flip() +
   scale_fill_manual(values = blues) +
+  scale_color_manual(values = c("white", "black")) +
   theme_ct_horizontal() +
   theme_poppins_bold_all() +
   theme(
