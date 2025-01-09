@@ -10,7 +10,12 @@ This concept will be *deliberately* using the same or similiar language from
 the 2025 Health Assessment for ease of comparison. This meant to be a vertical
 slice of the 2025 Health Assessment, showcasing a little bit of everything.
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+::: {.callout-note}
+- To learn more about Quarto books visit <https://quarto.org/docs/books>.
 
-To learn more about the latest CT State Health Assessment visit 
+- Please do check out previous CT State Health Assessments [here](https://portal.ct.gov/dph/state-health-planning/state-health-plans/comprehensive-state-health-plans-and-assessments); they really are a tremendous amount
+of work to produce and it's a small miracle that they happen at all.
+
+- To learn more about the latest CT State Health Assessment visit 
 <https://portal.ct.gov/dph/state-health-planning/healthy-connecticut/healthy-connecticut-2025>
+:::
