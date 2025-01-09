@@ -1,5 +1,6 @@
 ```{r setup, echo=FALSE}
 library(ggplot2)
+library(dplyr)
 
 # color lists
 
