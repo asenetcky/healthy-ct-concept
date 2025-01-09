@@ -125,7 +125,7 @@ the same data streams and they can offer deeper interactive dives into the data.
 #| message: false
 #| warning: false
 #| label: fig-random-map
-#| fig-cap: "source: @ct_reportable-disease-list2024"
+#| fig-cap: "source: @placeholder1"
 
 
 # library(leaflet)
@@ -136,7 +136,6 @@ the same data streams and they can offer deeper interactive dives into the data.
 
 library(tigris)
 library(RSocrata)
-library(dplyr)
 
 ct_county_disease_data <- 
   RSocrata::read.socrata("https://data.ct.gov/resource/4rss-apm8.json") |> 
