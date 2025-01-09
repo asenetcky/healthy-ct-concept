@@ -1,5 +1,15 @@
 # Acknowledgements {.unnumbered}
 
+:::{.callout-important collapse="true"}
+## Remember this is all fake!
+
+Throughout this book there will be the same or similiar language
+and a whole lot of _lorem ipsum_.  This is meant to highlight
+the differences and similiarities and is not intended to steal
+or otherwise offend any of SHA authors, contributors and their
+references
+:::
+
 ## Connecticut Department of Public Health
 
 **J. Smith Commish, MD, MPH **
