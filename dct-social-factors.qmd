@@ -180,7 +180,8 @@ basic_plot +
   theme_ct_vertical() +
   theme_poppins_bold_all() +
   theme(
-    title = element_text(size = 8)
+    text = element_text(size = 20)
+    
   )
  
 
