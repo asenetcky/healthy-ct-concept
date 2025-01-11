@@ -178,11 +178,7 @@ orange <- list_color_hex_codes$list_ct_secondary_colors$secondary
 basic_plot +
    scale_color_manual(values = c(blue, orange)) +
   theme_ct_vertical() +
-  theme_poppins_bold_all() +
-  theme(
-    text = element_text(size = 20)
-    
-  )
+  theme_poppins_bold_all()
  
 
 ```

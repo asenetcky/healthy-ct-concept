@@ -7,6 +7,7 @@ library(showtext)
 # sysfonts::font_info_google() |> as_tibble() |> View()
 
 showtext::showtext_auto()
+showtext_opts(dpi = 200)
 sysfonts::font_add_google(name = "Poppins", family = "Poppins")
 
 # color lists
