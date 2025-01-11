@@ -126,6 +126,7 @@ the same data streams and they can offer deeper interactive dives into the data.
 #| warning: false
 #| label: fig-random-map
 #| fig-cap: "source: @placeholder1"
+#| cache: true
 
 
 # library(leaflet)
